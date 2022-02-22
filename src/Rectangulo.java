@@ -7,8 +7,8 @@ public class Rectangulo implements Figura{
         if(lado1 > lado2*3){
             throw new ExceptionFigura("La base es 3 veces mayor que la altura");
         }
-        this.lado1 = lado1;
-        this.lado2 = lado2;
+            this.lado1 = lado1;
+            this.lado2 = lado2;
     }
 
     public double getLado1() {

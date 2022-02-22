@@ -31,9 +31,6 @@ public class ExamenFebrero2022 {
         figuras[4] = new Cuadrado(5);
 
 
-        }//He forzado la excepcion porque no me he enterado de como calcular la hipotenusa
-
-
         /*
         System.out.println(devolverMayorPerimetroFigura(figuras));
         */
@@ -67,4 +64,4 @@ public class ExamenFebrero2022 {
 
 
     }
-
+}
