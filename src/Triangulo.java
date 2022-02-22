@@ -5,7 +5,7 @@ public class Triangulo implements Figura{
 
     public Triangulo(double base, double altura) throws ExceptionFigura {
 
-        double hipotenusa = 2;
+        double hipotenusa = (Math.pow(base,2) + Math.pow(altura,2));
 
         if(hipotenusa == (Math.pow(base,2) + Math.pow(altura,2))){
             throw new ExceptionFigura("El triangulo es equilatero");

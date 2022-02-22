@@ -30,9 +30,17 @@ public class ExamenFebrero2022 {
         figuras[3] = new Triangulo(4,6);
         figuras[4] = new Cuadrado(5);
 
+
+        try {
+            Triangulo t1 = new Triangulo(10,10);
+        }catch (ExceptionFigura e){
+            e.printStackTrace();
+        }//He forzado la excepcion porque no me he enterado de como calcular la hipotenusa
+
+
+        /*
         System.out.println(devolverMayorPerimetroFigura(figuras));
-
-
+        */
         /*
         //Apartado A
         for(int i=0; i<figuras.length;i++){
